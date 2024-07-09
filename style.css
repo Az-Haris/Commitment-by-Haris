@@ -34,7 +34,7 @@ nav a{
 .banner{
     background: url("./assets/Hero-bg.png") center;
     background-size: cover;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 .banner-content{
     max-width: 900px;
@@ -52,6 +52,10 @@ nav a{
 }
 .banner-content h1{
     font-size: 48px;
+    color: #0D1321;
+}
+.banner-content p{
+    color: #0D1321;
 }
 .banner-content a{
     text-decoration: none;
@@ -62,3 +66,47 @@ nav a{
 }
 
 
+
+/* Why Web Section */
+.why-web{
+    padding: 70px 240px;
+    max-width: 1140px;
+    margin: auto;
+
+}
+.section-title{
+    font-size: 32px;
+    color: #0D1321;
+    text-align: center;
+}
+.section-description{
+    color: #0D1321;
+    text-align: center;
+    margin: 20px 0;
+    max-width: 900px;
+}
+
+.reason{
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.reason-content h3{
+    font-size: 24px;
+    color: #0d1321bb;
+}
+.reason-content p{
+    margin: 20px 0;
+}
+.reason-content a{
+    text-decoration: none;
+    color: #0D1321;
+    padding: 10px 24px;
+    border: 1px solid #0D1321;
+    display: inline-block;
+}
+.reason-reverse{
+    flex-direction: row-reverse;
+}
