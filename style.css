@@ -82,8 +82,9 @@ nav a{
 .section-description{
     color: #0D1321;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px auto;
     max-width: 900px;
+    
 }
 
 .reason{
@@ -109,4 +110,26 @@ nav a{
 }
 .reason-reverse{
     flex-direction: row-reverse;
+}
+
+
+/* My Inspiration CSS */
+.inspiration{
+    max-width: 1140px;
+    margin: 0 auto 140px;
+}
+.inspiration hr{
+    width: 30px;
+    margin: auto;
+    border-color: #ff7300;
+}
+.inspiration-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.inspiration-video iframe{
+    border: 30px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgb(209, 209, 209);
 }
