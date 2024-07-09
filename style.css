@@ -222,6 +222,7 @@ nav a{
 }
 .support p{
     color: rgb(199, 199, 199);
+    text-align: center;
 }
 .support input{
     padding: 12px 16px;
