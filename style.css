@@ -133,3 +133,42 @@ nav a{
     border-radius: 20px;
     box-shadow: 0 0 10px 10px rgb(209, 209, 209);
 }
+
+
+/* Current Target */
+.current-target{
+    max-width: 1140px;
+    margin: 0 auto 140px;
+}
+.targets{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+.target{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.target h3{
+    font-size: 24px;
+}
+.target img{
+    width: 70px;
+}
+.target a{
+    color: #0D1321;
+}
+
+.target1{
+    background-color: #ff4b1e25;
+}
+.target2{
+    background-color: #004de825;
+}
+.target3{
+    background-color: #FFDF0025;
+}
