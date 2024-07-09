@@ -153,7 +153,7 @@ nav a{
     padding: 30px;
     border-radius: 8px;
 }
-.target h3{
+.target-title{
     font-size: 24px;
 }
 .target img{
@@ -171,4 +171,30 @@ nav a{
 }
 .target3{
     background-color: #FFDF0025;
+}
+
+/* Next Target */
+.next-targets{
+    margin-top: 60px;
+}
+.next-target{
+    max-width: 1140px;
+    margin: 0 auto 140px;
+}
+.next a{
+    color: #0D1321;
+}
+.next{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    margin: 40px 0;
+}
+.next-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
